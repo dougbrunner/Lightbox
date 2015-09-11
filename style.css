@@ -1,0 +1,72 @@
+* {
+  font-family: Arial;
+}
+
+.character-container {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 0;
+}
+.character-container img {
+  width: 100%;
+}
+.character-container a {
+  display: inline-block;
+  vertical-align: bottom;
+  width: 19%;
+  text-decoration: none;
+  margin: 0.5%;
+  color: #000;
+}
+
+/* overlay */
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  text-align: center;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+}
+.overlay i {
+  color: #fff;
+  font-size: 2em;
+  margin: 0;
+  padding: 2% 1%;
+  background: #000;
+  opacity: 0.5;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  cursor: pointer;
+  z-index: 1;
+}
+.overlay img {
+  margin-top: 2%;
+  box-shadow: 1px 1px 15px 5px #595959;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  z-index: 2;
+}
+.overlay p {
+  color: #fff;
+  font-size: 2em;
+  margin: 10px 0 0 0;
+  z-index: 1;
+  position: relative;
+}
+
+.background {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(119, 119, 119, 0.7);
+  z-index: 0;
+}
+
+/*# sourceMappingURL=style.css.map */
